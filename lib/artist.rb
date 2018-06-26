@@ -24,10 +24,6 @@ class Artist
     @@all << self
   end
 
-  def genres
-    self.song.genre
-  end
-
   def self.all
     @@all
   end
