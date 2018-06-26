@@ -24,6 +24,10 @@ class Artist
     @@all << self
   end
 
+  def genres
+    self.genres
+  end
+
   def self.all
     @@all
   end
